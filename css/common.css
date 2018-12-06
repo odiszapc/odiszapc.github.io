@@ -1,0 +1,167 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans|Cabin:500);
+
+body {
+  font-size: 95%;
+}
+
+* {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+.central {
+  width: 1024px;
+  margin: 40px auto 123px auto;
+}
+
+.left {
+  float: left;
+}
+
+.common {
+  margin-left: 190px;
+}
+
+.interests {
+  clear: both;
+  overflow: hidden;
+}
+
+.floated {
+  display: inline-block;
+  vertical-align: top;
+  width: 14%;
+  margin-right: 2%;
+}
+
+a {
+  color: #5224ba;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 29px;
+  font-size: 85%;
+}
+
+.interests ul {
+  margin-top: 0;
+}
+
+ul li {
+  margin-bottom: 2px;
+}
+
+p {
+  line-height: 1.45em;
+  margin-bottom: 15px;
+}
+
+.info {
+  display: block;
+  margin-top: -3px;
+}
+
+.smaller {
+  font-size: 80%;
+  color: #403e3e;
+}
+
+.about {
+  margin-left: 7px;
+}
+
+.mail {
+  font-size: 80%;
+}
+
+.icons {
+  margin-top: 13px;
+}
+
+.icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url(../img/icons.png) no-repeat;
+}
+
+.icon.twitter {
+  background-position: 0 0;
+}
+
+.icon.github {
+  background-position: 0 -64px;
+}
+
+h1 {
+  font-size: 130%;
+}
+
+h1, h2 {
+  font-family: 'Cabin', sans-serif;
+}
+
+h2 {
+  font-size: 120%;
+  font-weight: 500;
+  margin-bottom: -3px;
+  margin-top: 0;
+}
+
+p+h2 {
+  margin-top: 30px;
+}
+
+h3 {
+  margin: 16px 0 5px 0;
+  font-size: 102%;
+}
+
+.lighter {
+  color: #ededed;
+}
+
+.c1 {
+  color: #479e8b;
+}
+
+.c2 {
+  color: #3273b0;
+}
+
+.c3 {
+  color: #9756a1;
+}
+
+.c4 {
+  color: #27902c;
+}
+
+.c5 {
+  color: #b03030;
+}
+
+.c6 {
+  color: #976980;
+}
+
+.c7 {
+  color: #949528;
+}
+
+.c8 {
+  color: #144346;
+}
+
+.c9 {
+  color: #dda525;
+}
+
+.c10 {
+  color: #af91c5;
+}
+
+.c11 {
+  color: #f95c94;
+}
