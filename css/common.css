@@ -9,7 +9,7 @@ body {
 }
 
 .central {
-  width: 1024px;
+  width: 1280px;
   margin: 40px auto 123px auto;
 }
 
@@ -49,12 +49,16 @@ ul {
 }
 
 ul li {
-  margin-bottom: 2px;
+  margin-bottom: 0.4em;
+}
+
+.interests ul li {
+  margin-bottom: 0.2em;
 }
 
 p {
-  line-height: 1.45em;
-  margin-bottom: 15px;
+  line-height: 1.6em;
+  margin-bottom: 1em;
 }
 
 b, strong {
@@ -98,29 +102,28 @@ b, strong {
   background-position: 0 -64px;
 }
 
-
-
 h1, h2, h3 {
-  /*font-family: 'Cabin', sans-serif;*/
   font-weight: 400;
 }
 
 h1 {
-  font-size: 1.7em;
-  font-weight: 350;
+  font-size: 2.0em;
+  font-weight: 300;
 }
 
 h2 {
-  font-size: 120%;
+  font-size: 1.5em;
+  font-weight: 350;
+  color: #b79f72;
   margin-bottom: -3px;
   margin-top: 0;
 }
 
 h3 {
   font-weight: 500;
+  color: #cca311;
+  font-size: 1.2em;
 }
-
-
 
 p+h2 {
   margin-top: 30px;
@@ -128,7 +131,6 @@ p+h2 {
 
 h3 {
   margin: 16px 0 5px 0;
-  font-size: 102%;
 }
 
 .lighter {
@@ -137,44 +139,55 @@ h3 {
 
 .c1 {
   color: #479e8b;
+  border-bottom: 3px solid #479e8b4a;
 }
 
 .c2 {
   color: #3273b0;
+  border-bottom: 3px solid #3273b04a;
 }
 
 .c3 {
   color: #9756a1;
+  border-bottom: 3px solid #9756a14a;
 }
 
 .c4 {
   color: #27902c;
+  border-bottom: 3px solid #27902c4a;
 }
 
 .c5 {
   color: #b03030;
+  border-bottom: 3px solid #b030304a;
 }
 
 .c6 {
   color: #976980;
+  border-bottom: 3px solid #9769804a;
 }
 
 .c7 {
   color: #949528;
+  border-bottom: 3px solid #9495284a;
 }
 
 .c8 {
   color: #144346;
+  border-bottom: 3px solid #1443464a;
 }
 
 .c9 {
   color: #dda525;
+  border-bottom: 3px solid #dda5254a;
 }
 
 .c10 {
   color: #af91c5;
+  border-bottom: 3px solid #af91c54a;
 }
 
 .c11 {
   color: #f95c94;
+  border-bottom: 3px solid #f95c944a;
 }
