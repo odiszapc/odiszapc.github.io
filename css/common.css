@@ -1,11 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans|Cabin:500);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans|Cabin|Roboto:500);
 
 body {
   font-size: 95%;
 }
 
 * {
-  font-family: 'Droid Sans', sans-serif;
+  font-family: "Segoe UI", 'Droid Sans', sans-serif;
 }
 
 .central {
@@ -41,7 +41,7 @@ ul {
   list-style: none;
   padding: 0;
   margin-bottom: 29px;
-  font-size: 85%;
+  font-size: 0.9em;
 }
 
 .interests ul {
@@ -57,13 +57,17 @@ p {
   margin-bottom: 15px;
 }
 
+b, strong {
+  font-weight: 500;
+}
+
 .info {
   display: block;
   margin-top: -3px;
 }
 
 .smaller {
-  font-size: 80%;
+  font-size: 0.85em;
   color: #403e3e;
 }
 
@@ -72,7 +76,7 @@ p {
 }
 
 .mail {
-  font-size: 80%;
+  font-size: 0.85em;
 }
 
 .icons {
@@ -94,20 +98,29 @@ p {
   background-position: 0 -64px;
 }
 
-h1 {
-  font-size: 130%;
+
+
+h1, h2, h3 {
+  /*font-family: 'Cabin', sans-serif;*/
+  font-weight: 400;
 }
 
-h1, h2 {
-  font-family: 'Cabin', sans-serif;
+h1 {
+  font-size: 1.7em;
+  font-weight: 350;
 }
 
 h2 {
   font-size: 120%;
-  font-weight: 500;
   margin-bottom: -3px;
   margin-top: 0;
 }
+
+h3 {
+  font-weight: 500;
+}
+
+
 
 p+h2 {
   margin-top: 30px;
